@@ -1,6 +1,6 @@
     
     
-.conteiner {
+.conteiner-head{
     display: grid;
     grid-template-columns: auto ;
     justify-content:center;
@@ -8,7 +8,7 @@
     padding-top: 150px ;
   }
 
-.conteiner-2{
+.conteiner-footer{
     display: grid;
     grid-template-columns: auto auto;
     justify-content:center;
@@ -16,21 +16,134 @@
     
   }
 /*--------------------------------------------------------------->*/
-  .block-1 {
+  .block-head {
     background-color: #ffffff;
     justify-items: center;
-   box-shadow:  0 1px 4px rgba(1, 248, 236, 0.8),
-   -23px 0 20px -23px rgba(1, 248, 236, 0.8),
-   23px 0 20px -23px rgba(1, 248, 236, 0.8),
-   0 0 40px rgba(0, 0, 0, .1) inset;
+   box-shadow:  1px 0 1px 5px rgba(203, 241, 240, 0.8);
+   
+   
+   padding: 0px 92px 0px 20px;
+    font-size: 14px;
+  }
+  
+  .block-right {
+    
+    justify-items:end;
+    height: 200px;
+    background-color: rgba(15, 160, 153, 0.766);
+    padding-left: 18px;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+
+  .block-left {
+    height: 200px;
+    background-color: rgb(25, 179, 187);
+    
+    padding: 0px 75px 20px 0px;
+  }
+/*----------------------------------------------------------------------->*/
+.title_block-head {
+    color: rgb(156, 247, 36);
+  }
+  
+.title_block-right {
+    padding-top:15px;
+    font-size: 16px;
+}
+
+.title_block-left {
+        color: #ffffff;
+        padding-left: 30px;
+        font-size: 16px;
+        padding-top:15px;
+    }
+  
+/*----------------------------------------------------------------------->*/    
+  .money {
+    font-size: 25px;
+  }
+  .month {
+    font-size: 14px;
+    color: #f7f0f0;
+  }
+  
+  
+  h1 {
+    color: rgb(rgb(20, 188, 235));
+  }
+  
+  h2 ~ h2 {
+    color: rgb(
+      rgb(248, 245, 245),
+      rgb(253rgb (20, 235, 228) 4, 253),
+      rgb(20, 188, 235) rgb(249, 249, 252)
+    );
+  }
+  
+  
+  
+  button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 247, 36);
+    width: 195px;
+    height: 40px;
+    border: 1px solid rgb(156, 247, 36);
+    border-radius: 6px;
+    
+  }
+  
+  .list {
+    list-style-type: none;
+  }
+  
+  .list li {
+    font-size: 14px;
+    color: white;
+  }
+  
+  
+  
+  h1{
+    color: #18c0c0;
+}
+
+@media screen and (max-width: 768px) {
+  .conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:center;
+    width: 300px;
+    padding: 150px 30px 0px 30px ;
+    
+  }
+
+.conteiner-2{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:center;
+    width: 300px;
+    padding: 0px 30px 0px 30px ;
+    
+    
+  }
+/*--------------------------------------------------------------->*/
+  .block-1 {
+    width: 300px;
+    background-color: #ffffff;
+    
    padding: 0px 92px 0px 20px;
     font-size: 14px;
   }
   
   .block-2 {
-    justify-items:end;
+    width: 300px;
+    
     height: 200px;
-    background-color: rgba(9, 204, 194, 0.766);
+    background-color: rgba(15, 160, 153, 0.766);
     padding-left: 18px;
     color: #ffffff;
     padding-bottom: 20px;
@@ -38,14 +151,15 @@
   }
 
   .block-3 {
+    width: 300px;
     height: 200px;
-    background-color: rgb(0, 239, 252);
+    background-color: rgb(25, 179, 187);
     
     padding: 0px 75px 20px 0px;
   }
 /*----------------------------------------------------------------------->*/
 .title_block-1 {
-    color: rgb(0, 255, 21);
+    color: rgb(156, 247, 36);
   }
   
 .title_block-2 {
@@ -86,10 +200,10 @@
   
   button {
     color: rgb(255, 255, 255);
-    background-color: rgb(64, 233, 49);
-    width: 195px;
+    background-color: rgb(156, 247, 36);
+    width: 265px;
     height: 40px;
-    border: 1px solid rgb(64, 233, 49);
+    border: 1px solid rgb(156, 247, 36);
     border-radius: 6px;
     
   }
